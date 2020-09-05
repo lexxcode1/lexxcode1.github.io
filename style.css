@@ -1,0 +1,33 @@
+
+.card {
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: box-shadow 0.3s;
+    width: 25%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    height: 5rem;
+    text-align: center;
+  }
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#accept {
+    margin-top: .5rem;
+}
+#accept:checked {
+    transition: 0.5s;
+}
