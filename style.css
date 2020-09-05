@@ -9,8 +9,10 @@
     top: 50%;
     height: 5rem;
     text-align: center;
+    background: #eeeeee;
+    padding-top: 1rem;
   }
-  
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
