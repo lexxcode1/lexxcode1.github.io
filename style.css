@@ -1,4 +1,33 @@
+@media all and (max-width: 1050px) {
+    .card {
+        height: 10rem !important;
+        font-size: 1.25rem;
+    }
+}
+@media all and (max-width: 620px) {
+    .card {
+        height: 12rem !important;
+    }
+}
+@media all and (max-width: 520px) {
+    .card {
+        height: 13rem !important;
+        width: 50% !important;
+    }
+}
+@media all and (max-width: 250px) {
+    .card {
+        height: 15rem !important;
+    }
+}
 
+
+@media all and (max-width: 180px) {
+    .card {
+        height: 15rem !important;
+        width: 75% !important;
+    }   
+}
 .card {
     position: absolute;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -7,7 +36,7 @@
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    height: 5rem;
+    height: 6rem;
     text-align: center;
     background: #eeeeee;
     padding-top: 1rem;
@@ -27,9 +56,25 @@ a {
     text-decoration: none;
 }
 
-#accept {
-    margin-top: .5rem;
+#accept:checked ~ body{
+    background: red !important;
 }
-#accept:checked {
-    transition: 0.5s;
+
+.accept-btn {
+    margin-top: .5rem;
+    transition: 500ms;
+    border: none;
+    background: blue;
+    padding: .5rem;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.accept-btn:hover {
+    background:darkblue;
+}
+
+.accept-btn:active ~ body {
+    background: red;
 }
